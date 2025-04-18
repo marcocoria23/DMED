@@ -10,6 +10,7 @@ import Pantallas_SENAP.Inicio;
 import java.sql.Connection;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import mx.org.inegi.conexion.SENAP.ConSQLServer;
 import mx.org.inegi.conexion.SENAP.ConORACLEFactory;
 import mx.org.inegi.insert_TMP_SENAP.TMP_SENAP_NOTICIACRIMINAL;
@@ -151,6 +152,7 @@ public class MenuProyectos extends javax.swing.JFrame {
         Menu Men=new Menu();
         Men.setVisible(true);
         this.setVisible(false);
+        JOptionPane.showConfirmDialog(rootPane,"kosdfksdf");
         
     }//GEN-LAST:event_PLEActionPerformed
 
