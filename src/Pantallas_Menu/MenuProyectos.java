@@ -152,8 +152,7 @@ public class MenuProyectos extends javax.swing.JFrame {
         Menu Men=new Menu();
         Men.setVisible(true);
         this.setVisible(false);
-        JOptionPane.showConfirmDialog(rootPane,"kosdfksdf");
-        JOptionPane.showConfirmDialog(rootPane,"holahola");
+
         
     }//GEN-LAST:event_PLEActionPerformed
 
